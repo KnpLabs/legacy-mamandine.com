@@ -11,9 +11,9 @@ CREATE TABLE `cake`
 
 INSERT INTO `cake` 
 (id , name                       , image                          , price , created_at) VALUES
-(1  , 'Chocolate Blackout Cake'  , 'uploads/chocblackoutcake.jpg'  , 40.00 , datetime('now'))   ,
-(2  , 'Chocolate Raspberry Cake' , 'uploads/chocraspberrycake.jpg' , 30.00 , datetime('now'))   ,
-(3  , 'Chocolate Coconut Cake'   , 'uploads/choccoconutcake.jpg'   , 32.00 , datetime('now'))
+(1  , 'Chocolate Blackout Cake'  , 'http://cf.chocolatechocolateandmore.com/wp-content/uploads/2015/08/chocblackoutcake.jpg'  , 40.00 , datetime('now'))   ,
+(2  , 'Chocolate Raspberry Cake' , 'http://cf.chocolatechocolateandmore.com/wp-content/uploads/2015/08/chocraspberrycake.jpg' , 30.00 , datetime('now'))   ,
+(3  , 'Chocolate Coconut Cake'   , 'http://cf.chocolatechocolateandmore.com/wp-content/uploads/2015/08/choccoconutcake.jpg'   , 32.00 , datetime('now'))
 ;
 
 DROP TABLE IF EXISTS `category`;

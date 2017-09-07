@@ -12,7 +12,7 @@ $categories = $pdo->query('SELECT * FROM category INNER JOIN cake_category ON ca
         <h1><?php echo $cake['name'] ?></h1>
         <a class="btn btn-light" href="index.php"> &crarr; Back to list</a>
         <div class="media">
-            <img class="d-flex align-self-start mr-3" src="/<?php echo $cake['image'] ?>" alt="<?php echo $cake['name'] ?>" style="height:500px">
+            <img class="d-flex align-self-start mr-3" src="<?php echo $cake['image'] ?>" alt="<?php echo $cake['name'] ?>" style="height:500px">
             <div class="media-body">
                 <p><button class="btn btn-primary">Purchase for <strong><?php echo $cake['price'] ?> €</strong></button></p>
                 <p>
